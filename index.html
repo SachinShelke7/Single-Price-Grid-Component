@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Single Price Grid Component</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght700&display=swap" rel="stylesheet">
+  <!-- font-family: 'Karla', sans-serif; -->
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    body {
+      font-family: 'Karla', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="text-white bg-Light-G">
+  <main>
+    <div class="w-full md:h-screen flex justify-center items-center mt-10 ms:mt-0">
+
+      <div class="grid grid-flow-row md:grid-flow-row w-full h-auto max-w-2xl m-auto">
+        <!--1-->
+        <div class="row-span-2 space-y-6 bg-white rounded-t-lg p-12 mx-8 md:mx-0">
+          <div>
+            <h1 class="text-2xl font-medium text-cyan-d">
+              Join our community
+            </h1>
+          </div>
+          <div>
+            <h3 class="text-xl font-medium text-bright-y">
+              30-day, hassle-free money back guarantee
+            </h3>
+          </div>
+          <div>
+            <p class=" font-medium text-Gray-B">
+              Gain access to our full library of tutorials along with expert code
+              reviews.
+              Perfect for any developers who are serious about honing their skills.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex flex-col md:flex-row">
+          <!--2-->
+          <div class="row-span-1 w-auto md:w-1/2 p-12 space-y-4 bg-cyan-d md:rounded-bl-lg mx-8 md:mx-0">
+            <div class="text-2xl font-medium">
+              Monthly Subscription
+            </div>
+            <div class="flex items-center space-x-3">
+              <div>
+                <button class="text-3xl font-medium">
+                  &dollar;29
+                </button>
+              </div>
+              <div>
+                per month
+              </div>
+            </div>
+            <div>
+              Full access for less than &dollar;1 a day
+            </div>
+            <div>
+              <button class="bg-bright-y w-full py-2 rounded-lg shadow-lg">
+                Sign Up
+              </button>
+            </div>
+          </div>
+          <!--3-->
+          <div class="row-span-1 w-auto md:w-1/2 p-12 bg-3rd rounded-b-lg md:rounded-bl-none mx-8 md:mx-0">
+            <div>
+              Why Us
+            </div>
+            <div class="pt-3 font-sans">
+              Tutorials by industry experts
+              Peer &amp; expert code review
+              Coding exercises
+              Access to our GitHub repos
+              Community forum
+              Flashcard decks
+              New videos every week
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="attribution md:-mt-24">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        class=" hover:text-red-400">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/sachinshelke7" class="hover:text-red-400">SACHIN SHELKE</a>.
+    </p>
+  </footer>
+</body>
+
+</html>
